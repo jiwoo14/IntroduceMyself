@@ -22,13 +22,13 @@ div.top > p {
     display: inline;
     vertical-align: middle;
     letter-spacing: 5px;
-    margin: 0 10px;
-    padding-bottom: 0;
+    margin: 0 10px 10px 10px;
+    padding-bottom: 10px;
 }
 #top_box {
     font-family: drfont_daraehand;
     font-size: 25px;
-    background-color: palevioletred;
+    background-color: rebeccapurple;
     color: white;
     margin: 0;
     padding: 20px 5px 10px 5px;
@@ -39,16 +39,16 @@ div.top > p {
     margin-right: 10px;
 }
 .background {
-    margin: 0;
     padding: 0;
+    margin-top: 10px;
 }
 div.background > div.information {
-    border-right: palevioletred 6px solid;
+    border-right: rebeccapurple 6px solid;
     border-bottom-right-radius: 16px;
     border-top-right-radius: 16px;
     color: black;
     float: left;
-    margin-top: 15%;
+    margin-top: 8%;
     margin-left: 20%;
     text-align: right;
     padding: 0 20px 0 0;
@@ -59,9 +59,9 @@ div.background > div.information > h1 {
 }
 div.background > div.keywords {
     margin-left: 5%;
-    margin-top: 0;
+    margin-top: 6%;
     padding-left: 0;
-    padding-top: 8%;
+    padding-top: 0;
     padding-right: 18%;
 }
 div.row {
