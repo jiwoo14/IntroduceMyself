@@ -1,0 +1,53 @@
+.top {
+    text-align: center;
+}
+div.top > p {
+    display: inline;
+    vertical-align: middle;
+    letter-spacing: 5px;
+    margin: 0 10px;
+}
+#top_box {
+    font-size: 18px;
+    background-color: palevioletred;
+    color: white;
+    margin: 0;
+    padding: 25px 10px 20px 10px;
+    letter-spacing: 1px;
+}
+#top_right {
+    margin-left: 400px;
+    margin-right: 10px;
+}
+.background {
+    background-image: url("./images/background.jpg");
+    background-size: cover;
+    padding:0;
+    margin: 0;
+}
+div.background > div.information {
+    color: white;
+}
+div.col {
+    display: inline;
+}
+div.col > div.card {
+    display: inline;
+    background-size: 160px;
+    background-color: white;
+    border: white 5px solid;
+    padding: 0;
+}
+div.col > div.card > img {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+div.col > div.card > h5 {
+    position: absolute;
+    background-color: white;
+    width: 150px
+    margin-top: 0;
+    padding-top: 0;
+}
