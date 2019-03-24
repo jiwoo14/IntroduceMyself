@@ -12,6 +12,13 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'GyeonggiBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff')
+    format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 .top {
     text-align: center;
     padding: 0;
@@ -35,7 +42,7 @@ div.top > p {
     letter-spacing: 1px;
 }
 #top_right {
-    margin-left: 400px;
+    margin-left: 30%;
     margin-right: 10px;
 }
 .background {
@@ -43,6 +50,7 @@ div.top > p {
     margin-top: 10px;
 }
 div.background > div.information {
+    position: relative;
     border-right: rebeccapurple 6px solid;
     border-bottom-right-radius: 16px;
     border-top-right-radius: 16px;
@@ -57,7 +65,11 @@ div.background > div.information > h1 {
     font-family: yg-jalnan;
     letter-spacing: 7px;
 }
+div.background > div.information > h3, p {
+    font-family: 'Neucha', cursive;
+}
 div.background > div.keywords {
+    position: relative;
     margin-left: 5%;
     margin-top: 6%;
     padding-left: 0;
@@ -82,12 +94,12 @@ div.row > div.card > img {
 }
 div.row > div.card > h5 {
     position: absolute;
-    background-color: white;
-    width: 150px;
+    font-family: 'Neucha', cursive;
     margin-top: 0;
     padding-top: 0;
 }
 div.row > div.card > p {
+    font-family: GyeonggiBatang;
     font-size: 11px;
     padding: 5px;
     margin-top: 15px;
